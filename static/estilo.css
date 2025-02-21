@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    position: relative; /* Define um contexto para o h2 */
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #333;
+    position: absolute; /* Remove do fluxo normal do documento */
+    top: 300px; /* Ajusta a posição para ficar acima dos labels */
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 5px 10px;
+    z-index: 10; /* Garante que fique acima dos outros elementos */
+}
+
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input{
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #4a54e1;
+}
+
+.ir_ao_login{
+    background-color: #black;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}

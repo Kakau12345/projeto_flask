@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Cadastro</title>
-    <link rel="stylesheet" href="estilo_cadastro.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo_cadastro.css') }}">
 </head>
 <body>
     <h2>Cadastro</h2>
@@ -19,5 +19,8 @@
         <input type="password" id="confirmpass" name="confirmpass" required><br>
         <button type="submit">Cadastrar</button>
     </form>
+    <a href="/">
+        <button class="ir-ao-login">Já tem uma conta?</button>
+    </a>
 </body>
 </html>
