@@ -10,6 +10,11 @@ PASSWORD = "1234"
 def login_page():
     return render_template('login.html')
 
+@app.route("/cadastro")
+def cadastro():
+    return render_template("cadastro.html")  # Criar este arquivo HTML
+
+
 @app.route ('/login', methods=['POST'])
 def login():
     username = request.form.get('username')
