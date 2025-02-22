@@ -22,7 +22,7 @@ h2 {
     margin-bottom: 30px;
     color: #333;
     position: absolute; /* Remove do fluxo normal do documento */
-    top: -20px; /* Ajusta a posição para ficar acima dos labels */
+    top: 300px; /* Ajusta a posição para ficar acima dos labels */
     left: 50%;
     transform: translateX(-50%);
     background: white;

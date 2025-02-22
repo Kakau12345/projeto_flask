@@ -15,6 +15,7 @@ def cadastro():
     return render_template("cadastro.html")  # Criar este arquivo HTML
 
 
+
 @app.route ('/login', methods=['POST'])
 def login():
     username = request.form.get('username')
