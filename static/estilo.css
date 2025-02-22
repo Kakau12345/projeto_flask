@@ -74,4 +74,8 @@ button:hover{
     display: block;
     width: auto; /* Permite que o botão se ajuste ao conteúdo */
     margin: 15px auto 0; /* Centraliza horizontalmente */
+    position: absolute;
+    bottom: 300px; /* Ajusta a distância do fundo */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza horizontalmente */
 }
