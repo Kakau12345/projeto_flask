@@ -51,7 +51,7 @@ button{
     border: none;
     padding: 10px;
     margin-top: 15px;
-    width: 100%;
+    width: 50%;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
@@ -62,7 +62,7 @@ button:hover{
 }
 
 .cadastrar{
-    background-color: black;
+    background-color: #666bad;
     color: white;
     border: none;
     padding: 10px;
