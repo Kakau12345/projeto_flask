@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template_string, render_templa
 app = Flask(__name__)
 
 USERNAME = "Usuario" and "Gustavo"
-PASSWORD = "1234" and "0312"
+PASSWORD = "1234" and "159753"
 
 
 @app.route('/')
@@ -12,7 +12,7 @@ def login_page():
 
 @app.route("/cadastro")
 def cadastro():
-    return render_template("cadastro.html")  # Criar este arquivo HTML
+    return render_template("cadastro.html")  
 
 
 
